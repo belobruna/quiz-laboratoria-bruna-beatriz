@@ -1,4 +1,4 @@
-var name = prompt("Olá, Bem-vindo! Qual o seu nome?")
+var username = prompt("Olá, Bem-vindo! Qual o seu nome?")
 
 var participacao = prompt("Você deseja participar do nosso quiz? \n 1) Sim \n 2) Não")
 
@@ -29,3 +29,19 @@ if (pergunta3 == 3) {
 } else if (pergunta3 != 3) {
     var resposta3 = false
 }
+
+
+document.getElementById("name").innerHTML = "Olá, " + username + "!"
+
+if (resposta1 == true) {
+    document.getElementById("certas").innerHTML = "Resposta 1 está certa"
+} else {document.getElementById("erradas").innerHTML = "Resposta 1 está errada" }
+
+if (resposta2 == true) {
+    document.getElementById("certas").innerHTML = "Resposta 2 está certa"
+} else {document.getElementById("erradas").innerHTML = "Resposta 2 está errada"}
+
+if (resposta3 == true) {
+    document.getElementById("certas").innerHTML = "Resposta 3 está certa"
+} else {document.getElementById("erradas").innerHTML = "Resposta 3 está errada" }
+

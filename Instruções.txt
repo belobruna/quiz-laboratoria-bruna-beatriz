@@ -1,0 +1,29 @@
+1. Mostrar uma tela de boas-vindas na qual se peça, através de prompt,
+o nome do usuário antes de começar a prova.
+
+2. Mostrar uma tela na qual o usuário pode escolher se quer mesmo dar
+início a prova ou não. Caso ele não deseje iniciar, o fluxo deve 
+ser encerrado. Caso ele queira, seguirá para a próxima etapa, 
+descrita no item 3.
+
+3. Mostrar, através de prompt, a pergunta 1 com alternativas. 
+O usuário responde e depois é apresentada a pergunta 2 e depois 
+a 3.
+
+4. Mostrar uma tela de resultados (respostas corretas e incorretas).
+
+
+--
+PASSO A PASSO 
+
+1) Fazer o prompt dando boas-vindas e perguntar o nome do usuário;
+2) Fazer variável com o nome do usuário e guardar essa informação;
+3) Perguntar ao usuário (prompt?) se ele quer fazer a prova ou não;
+4) Encerrar a interação com o usuário se ele responder não. 
+5) Iniciar o teste se ele responder sim.
+6) Fazer a pergunta 1 e guardar a resposta 
+7) Fazer a pergunta 2 e guardar a resposta 
+8) Fazer a pergunta 3 e guardar a resposta 
+9) Exibir respostas corretas e incorretas separadas em blocos. 
+10) Exibir o nome do usuário na tela incial
+
